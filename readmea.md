@@ -32,6 +32,7 @@ Aplicação Web de agendamento de cortes de cabelo.
 
 ## ⚡ Como Rodar Localmente
 
+
 ```bash
 # Instale as dependências
 npm install
