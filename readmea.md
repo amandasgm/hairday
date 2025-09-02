@@ -33,10 +33,6 @@ Aplicação Web de agendamento de cortes de cabelo.
 ## ⚡ Como Rodar Localmente
 
 ```bash
-# Clone o repositório
-git clone https://github.com/amandasgm/hairday.git
-cd hairday
-
 # Instale as dependências
 npm install
 
