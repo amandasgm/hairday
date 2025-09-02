@@ -37,10 +37,10 @@
         <span class="label">Horários</span>
         <ul id="hours" class="hours" aria-label="Horários disponíveis de manhã">
           <!-- Exemplo: Manhã -->
-          <li data-period="morning" class="hour-period">Manhã</li>
-          <li data-period="morning" value="09:00" class="hour hour-available">
+           <!-- <li data-period="morning" class="hour-period">Manhã</li> -->
+          <!-- <li data-period="morning" value="09:00" class="hour hour-available">
             09:00
-          </li>
+           </li>
           <li data-period="morning" value="10:00" class="hour hour-available">
             10:00
           </li>
@@ -49,17 +49,17 @@
           </li>
           <li data-period="morning" value="12:00" class="hour hour-available">
             12:00
-          </li>
+          </li> -->
           <!-- Exemplo: Tarde  -->
-          <li data-period="morning" class="hour-period">Tarde</li>
-          <li
+          <!-- <li data-period="afternoon" class="hour-period">Tarde</li> -->
+          <!-- <li
             data-period="afternoon"
             value="13:00"
             class="hour hour-unavailable"
           >
             13:00
           </li>
-          <li
+           <li
             data-period="afternoon"
             value="14:00"
             class="hour hour-unavailable"
@@ -85,19 +85,19 @@
           </li>
           <li data-period="afternoon" value="18:00" class="hour hour-available">
             18:00
-          </li>
+          </li> -->
           <!-- Exemplo: Noite -->
-          <li data-period="morning" class="hour-period">Noite</li>
+           <!-- <li data-period="night" class="hour-period">Noite</li> -->
 
-          <li data-period="night" value="19:00" class="hour hour-available">
+          <!--<li data-period="night" value="19:00" class="hour hour-available">
             19:00
           </li>
-          <li data-period="night" value="20:00" class="hour hour-available">
+           <li data-period="night" value="20:00" class="hour hour-available">
             20:00
           </li>
           <li data-period="night" value="21:00" class="hour hour-unavailable">
             21:00
-          </li>
+          </li> -->
         </ul>
 
         <label for="client" class="label">Cliente</label>
@@ -127,8 +127,9 @@
             <strong>Manhã</strong>
             <span>09h-12h</span>
           </header>
+          <!-- ? period-morning -->
           <ul id="period-morning" class="period">
-            <!-- Exemplo  -->
+            <!-- ex: 
             <li>
               <strong>11:00</strong>
               <span>Rodrigo Gonçalves</span>
@@ -137,8 +138,9 @@
                 alt="Cancelar"
                 class="cancel-icon"
               />
-            </li>
+            </li> -->
           </ul>
+
         </section>
 
         <section class="schedule-period">
@@ -147,17 +149,14 @@
             <strong>Tarde</strong>
             <span>13h-18h</span>
           </header>
+          <!-- ? period-afternoon -->          
           <ul id="period-afternoon" class="period">
-            <!-- Exemplo -->
+            <!-- Exemplo 
             <li>
               <strong>14:00</strong>
               <span>Rodrigo Gonçalves</span>
-              <img
-                src="./src/assets/cancel.svg"
-                alt="Cancelar"
-                class="cancel-icon"
-              />
-            </li>
+              <img src="./src/assets/cancel.svg" alt="Cancelar" class="cancel-icon" />
+            </li> -->
           </ul>
         </section>
 
@@ -167,6 +166,7 @@
             <strong>noite</strong>
             <span>19h-21h</span>
           </header>
+          <!-- ? period-night -->
           <ul id="period-night" class="period">
             <!-- Exemplo -->
             <li>
